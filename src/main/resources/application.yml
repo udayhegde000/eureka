@@ -1,0 +1,17 @@
+## Web server Properties ##
+server:
+  port: 8761
+  #servlet:
+   # context-path: /eureka
+
+## Spring Boot Properties ##
+spring:
+  application:
+    name: Eureka
+
+## Eureka Default Discovery Clie                            nt Properties ##
+eureka:
+  client:
+    register-with-eureka: false
+#eureka.client.fetch-registry=false
+
